@@ -17,10 +17,10 @@ $pokemon = array (
   array(11,"Onix","Rock","Ground","Sturdy",80,84,100)
 );
     
-for ($row = 0; $row < 11; $row++) {
+foreach ($row = 0; $row < 11; $row++) {
   echo "<p><b>Row number $row</b></p>";
   echo "<ul>";
-  for ($col = 0; $col < 8; $col++) {
+  foreach ($col = 0; $col < 8; $col++) {
     echo "<li>".$pokemon[$row][$col]."</li>";
   }
   echo "</ul>";
