@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
- ```powershell
-   $
-   $
-   
+
 <?php
 $pokemon = array (
   array(1,"Bulbasaur","Grass","Poison","Overgrow",45,49,49),
@@ -33,6 +30,6 @@ foreach ($row = 0; $row < 11; $row++) {
 
 }
 
-```
+
 </body>
 </html>
